@@ -24,8 +24,6 @@ const Forecast = ({ data }) => {
     WEEK_DAYS.slice(0, dayInAWeek)
   );
 
-  console.log(forecastDays);
-
   return (
     <>
       <label className="forecast-title">7 Days Forecast</label>
